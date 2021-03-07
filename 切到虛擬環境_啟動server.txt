@@ -1,0 +1,7 @@
+在虛擬環境下(blogVenv)$>，切到專案根目錄
+(blogVenv)$>cd D:\webapps\workspace\blog
+(blogVenv)$D:\webapps\workspace\blog>python manage.py runserver
+
+建立新app:
+(blogVenv)$>python manage.py startapp article(app名稱)
+
