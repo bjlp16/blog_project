@@ -1,7 +1,10 @@
-在虛擬環境下(blogVenv)$>，切到專案根目錄
+在虛擬環境下(blogVenv)$> ---這邊指的是切到專案根目錄
 (blogVenv)$>cd D:\webapps\workspace\blog
 (blogVenv)$D:\webapps\workspace\blog>python manage.py runserver
 
 建立新app:
 (blogVenv)$>python manage.py startapp article(app名稱)
+(blogVenv)$>python manage.py startapp populate(app名稱)
 
+(blogVenv)$>python manage.py makemigrations
+(blogVenv)$>python manage.py Migrate
